@@ -1,10 +1,17 @@
 
-## Loading the packages
+##----------------------------------------------------------------------------
+## Title: xkcd comic style plots
+## Author: Armando Enriquez Z.
+## Date: December 9th, 2014
+## Purpose: Create plots in a xkcd style
+##----------------------------------------------------------------------------
+
+
+## R libraries required
+## Probably you haven't got the packages yet: type "install.packages("package")"
 library(xkcd)
 library(ggplot2)
-
-## Loading the fonts
-library(extrafont)
+library(extrafont) ## Loading extra fonts
 fonts()
 loadfonts(device = "win")
 
